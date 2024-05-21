@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    background: transparent;
+}
+html ::-webkit-scrollbar-track{
+    background: transparent;
+}
+html ::-webkit-scrollbar-thumb{
+    background: #e9e4ee;
+    border-radius: 10px;
+}
+html ::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+}
+#navbar{
+    background-color: #e9e4ee;
+}
+#logo img{
+    border-radius: 10px;
+    width: 160px;
+    margin-left: 40px;
+}
+.navbar-nav{
+    margin-left: 50px;
+}
+.nav-item .nav-link{
+    color: black;
+    margin-left: 10px;
+    
+    font-style: normal;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.nav-item .nav-link:hover{
+    background: white;
+    border-radius: 5px;
+    color: black;
+}
+#navbar form button{
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+#home {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-image: linear-gradient(rgba(250, 244, 244, 0.3), rgba(250, 237, 237, 0.3)), url(airplane.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: 'Roboto', sans-serif;
+  flex-direction: row;
+  justify-content: left;
+  text-align: left;
+  }
+  #home h3 p {
+    margin-top: 0px;
+    margin-bottom: 0; 
+    padding-left: 90%;
+    margin-left: 50%; 
+    transform: translateX(-50%); 
+    text-align: center;
+  }
+  
+  
+
+.content {
+  padding-top: 0px;
+  margin-left: 1px;
+}
+
+.content h3 {
+  font-size: 50px;
+}
+
+.content p {
+  margin-top: 10px;
+}
+
+#btn {
+  width: 150px;
+  height: 36px;
+  margin-top: 20px;
+  background: white;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background: black;
+  color: #e9e4ee;
+}
+
+
+#about{
+    width: 100%;
+    height: 100vh;
+    background: #f7f5f2;
+    font-family: 'Roboto', sans-serif;
+  }
+  #about .container{
+    padding-top: 70px;
+  }
+  .heading{
+    text-align: center;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .heading span{
+    color: #b8b1be;
+  }
+  #about .card{
+    border-radius: 10px;
+  }
+  #about .card img{
+    border-radius: 10px;
+  }
+  #about-btn{
+    width: 200px;
+    height: 36px;
+    background: transparent;
+    border: 2px solid #b8b1be;
+    color: #b8b1be;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  #about-btn:hover{
+    background: #e9e4ee;
+    color: white;
+  }
+  @media screen and (max-width:982px){
+    #about p{
+      font-size: 8px;
+    }
+  }
+  @media screen and (max-width:766px){
+    #about p{
+      font-size: 15px;
+    }
+    #about{
+      height: 120vh;
+    }
+  }
+  #carouselDestinations {
+    margin-top: 60px;
+}
+
+#carouselDestinations .carousel-inner {
+    border-radius: 10px;
+}
+
+#carouselDestinations .carousel-item img {
+    border-radius: 10px;
+}
+
+#carouselDestinations .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+}
+
+#carouselDestinations .carousel-caption h5 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#carouselDestinations .carousel-caption p {
+    font-size: 18px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: auto;
+    margin-top: -50px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: black;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-image: none;
+}
+
+.carousel-control-prev-icon::before, .carousel-control-next-icon::before {
+    color: white;
+    font-size: 24px;
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-control-prev, .carousel-control-next, .carousel-control-prev:hover, .carousel-control-next:hover {
+    border-radius: 10px;
+}
+
+.carousel-control-prev:focus, .carousel-control-next:focus {
+    outline: none;
+}
+#carouselDestinations {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  #carouselDestinations {
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+
+
+#gallery {
+  width: 100%;
+}
+
+#gallery h1 {
+  text-align: center;
+  color: black;
+  margin-top: 60px;
+  font-weight: bold;
+}
+
+#gallery h1 span {
+  color: #b8b1be;
+}
+
+#gallery .card {
+  border-radius: 10px;
+  overflow: hidden; 
+}
+
+#gallery .card img {
+  border-radius: 10px;
+  cursor: pointer;
+  height: 300px; /* Adjust the height */
+  transition: transform 0.3s ease; /* Add transition for smooth effect */
+}
+
+#gallery .card img:hover {
+  transform: scale(1.1); /* Apply scale transformation on hover */
+}
+
+  .contact{
+    width: 100%;
+    height: 100vh;
+    background: #f7f5f2;
+    padding-top: 70px;
+  }
+  .contact .container{
+    width: 100%;
+    height: 80vh;
+    background: white;
+    background: linear-gradient(90deg, white 80%, #b8b1be 20%);
+    border-radius: 10px;
+  }
+  .heading6{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 70px;
+  }
+  .heading6 span{
+    color: #b8b1be;
+  }
+  .contact p{
+    font-weight: bold;
+    font-size: 13px;
+    color: black;
+  }
+  .contact input{
+    width: 360px;
+    border: none;
+    border-bottom: 1px solid;
+  }
+  #contact-btn{
+    width: 200px;
+    height: 36px; 
+    border: none;
+    background: #b8b1be;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  #col{
+    width: 40%;
+    height: 56vh;
+    background: black;
+    margin-top: 78px;
+  }
+  .contact h1{
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .contact #col p{
+    font-size: 15px;
+    color: white;
+    margin-left: 13px;
+    padding-top: 30px;
+  }
+  @media screen and (max-width:766px){
+    .contact .container{
+    background: white;
+    }
+    #col{
+      width: 100%;
+      background: #b8b1be;
+    }
+    .contact{
+      height: 150vh;
+    }
+  }
+  @media screen and (max-width:400px){
+    .contact input{
+      width: 250px;
+    }
+    
+  }
+  .blogs{
+    width: 100%;
+    background: #f7f5f2;
+  }
+  .blogs h1{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+  }
+  .blogs h1 span{
+    color: #b8b1be;
+  }
+  .blogs .container{
+    margin-top: 60px;
+  }
+  .blogs h5{
+    color: #b8b1be;
+  }
+  #blogbtn{
+    width: 200px;
+    height: 36px;
+    border: none;
+    color: rgb(61, 61, 100);
+    background: #e9e4ee;
+    cursor: pointer;
+  }
+  #footer{
+    width: 100%;
+    background: #e9e4ee;
+    margin-top: 50px;
+  }
+  .footer-logo img{
+    width: 180px;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  #footer .social-links i {
+    font-size: 17px;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+  
+  
